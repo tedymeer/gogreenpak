@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap');
+a.navlink {
+    color: inherit;
+    margin-left: 60%;
+    font-size: larger;
+    text-decoration: none;
+    font-family: 'Mali', cursive;
+}
+a.navlink:hover{
+    color:green;
+    font-size: x-large;
+    font-weight: bolder;
+}
+a.navlinklogo{
+    margin-left: 0.5%;
+    color: inherit;
+    font-size: larger;
+    text-decoration: none;
+    font-family: 'Mali', cursive;
+}
+span.fletter{
+    color: rgb(0, 128, 0);
+    font-size: x-large;
+    font-weight: bolder;
+}
+.navwrap{
+    background-color: #f6f5eb;
+    height: fit-content;
+}
