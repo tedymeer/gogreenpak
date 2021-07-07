@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@600&display=swap');
+
+.cform{
+    width: 100%;
+    flex: 50%;
+    padding-left: 5%;
+}
+.cfmainheading{
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.3rem;
+    color:darkolivegreen;
+}

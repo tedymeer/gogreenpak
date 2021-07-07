@@ -2,8 +2,8 @@ import SimpleReactFooter from "simple-react-footer";
 import './footer.css'
 import React from 'react'
 
-const description = "According to wikipedia, the cat (Felis catus) is a domestic species of small carnivorous mammal. It is the only domesticated species in the family Felidae and is often referred to as the domestic cat to distinguish it from the wild members of the family. A cat can either be a house cat, a farm cat or a feral cat; the latter ranges freely and avoids human contact.";
-  const title = "Cats";
+const description = "Go Green Pakistan is a non profit organization, which aims to plant trees in pakistan and make pakistan green again. So far we have planted plants at many places, our message is that 'Money is not needed, responsibility is' take action now and adopt a plant today";
+  const title = "About us";
   const columns = [
     {
         title: "Resources",
@@ -62,14 +62,14 @@ function Footer() {
     title={title}
     columns={columns}
     linkedin="fluffy_cat_on_linkedin"
-    facebook="fluffy_cat_on_fb"
+    facebook="PlantLives"
     twitter="fluffy_cat_on_twitter"
     instagram="fluffy_cat_live"
     youtube="UCFt6TSF464J8K82xeA?"
     pinterest="fluffy_cats_collections"
     copyright="black"
     iconColor="black"
-    backgroundColor="bisque"
+    backgroundColor="#f6f5eb"
     fontColor="black"
     copyrightColor="darkgrey"
  />
