@@ -1,12 +1,16 @@
 import React from 'react'
 import './contactform.css'
 function ContactFrom() {
+    function submitMail(e) {
+          e.preventDefault();
+
+    }
     return (
         <div className="cform">
             <p className="cfmainheading">Mail us</p>
 
             <div className="form">
-                <form >
+                <form onSubmit = {submitMail}>
                     <label for="name" className="labels">Your name</label>
                     <input id="name" type="text" name="fullname" className="inputfield" placeholder="Enter your name"/>
                     
