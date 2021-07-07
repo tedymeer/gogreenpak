@@ -8,5 +8,13 @@
 }
 .flexwrapper{
     display: flex;
-    margin-bottom:5%;
+    /* margin-bottom:5%; */
+    background-color: #f6f5eb;
+}
+p.adoptheading {
+    background-color: #f6f5eb;
+}
+.space{
+    background-color: #f6f5eb;
+    padding:2%;
 }

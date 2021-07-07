@@ -13,6 +13,8 @@ function AdoptPage() {
            <ContactDetails id="contactdetails"/>
            <ContactForm id="contactform"/>          
         </div>
+        <div className="space"></div>
+
             <Footer/>
         </>
     )
