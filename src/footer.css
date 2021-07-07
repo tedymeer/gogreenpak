@@ -1,4 +1,4 @@
 .footer-container{
     margin-top: 0px;
-    background-color: darkred;
+    align-self: flex-end;
 }

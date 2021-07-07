@@ -67,7 +67,7 @@ function Footer() {
     instagram="fluffy_cat_live"
     youtube="UCFt6TSF464J8K82xeA?"
     pinterest="fluffy_cats_collections"
-    copyright="black"
+    copyright="Go Green Pakistan"
     iconColor="black"
     backgroundColor="#f6f5eb"
     fontColor="black"
