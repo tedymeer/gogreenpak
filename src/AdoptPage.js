@@ -1,7 +1,7 @@
 import React from 'react'
 import './adopt.css'
 import ContactDetails from './ContactDetails'
-import ContactForm from './ContactForm'
+import Mailus from './Mailus'
 import Footer from './Footer'
 
 function AdoptPage() {
@@ -10,11 +10,10 @@ function AdoptPage() {
            <p className="adoptheading">Let's Adopt a plant</p>
            
         <div className="flexwrapper">   
-           <ContactDetails id="contactdetails"/>
-           <ContactForm id="contactform"/>          
+           <ContactDetails />
+           <Mailus />          
         </div>
         <div className="space"></div>
-
             <Footer/>
         </>
     )

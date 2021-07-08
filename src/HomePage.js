@@ -13,7 +13,7 @@ function HomePage() {
             
             <SectionCircle title="Title"/>
             <SectionBox title="Activities" />
-            
+            <div className="space"></div>
             <Footer/>
         </div>
     )

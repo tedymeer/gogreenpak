@@ -26,4 +26,11 @@ span.fletter{
 .navwrap{
     background-color: #f6f5eb;
     height: fit-content;
+    
 }
+
+/* .selected{
+    color:green;
+    font-size: x-large;
+    font-weight: bolder;
+} */
