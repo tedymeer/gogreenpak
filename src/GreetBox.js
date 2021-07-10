@@ -11,7 +11,7 @@ function GreetBox() {
             <p >Adopt a tree now</p>        
            </div>
            <div className="caption">                  
-            <p >Make pakistan green again</p>        
+            <p >Make Pakistan green again</p>        
            </div>
             
             

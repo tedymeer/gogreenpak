@@ -1,9 +1,10 @@
 import React from 'react'
 import Slider from './Slider'
 import GreetBox from './GreetBox'
-import SectionBox from './Section'
 import SectionCircle from './SectionCircle'
 import Footer from './Footer'
+import Section from './Section'
+import './section.css'
 
 function HomePage() {
     return (
@@ -11,8 +12,8 @@ function HomePage() {
             <GreetBox/>
             <Slider/>
             
-            <SectionCircle title="Title"/>
-            <SectionBox title="Activities" />
+            <SectionCircle title="3 simple steps"/>
+            <Section />
             <div className="space"></div>
             <Footer/>
         </div>

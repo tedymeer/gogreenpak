@@ -1,10 +1,9 @@
 import React from 'react'
 import './circlesec.css'
-import pic1 from './c1.jpg';
-import pic2 from './c2.jpg';
-import pic3 from './c3.jpg';
-import pic4 from './c4.jpg';
-import pic5 from './c5.jpg';
+import pic1 from './s1.png';
+import pic2 from './s2.png';
+import pic3 from './s3.jpg';
+
 
 const style={textAlign:'center' , marginTop:'6%'}
 
@@ -13,13 +12,10 @@ const style={textAlign:'center' , marginTop:'6%'}
 function SectionCircle(props) {
     return (
         <div className="circlesecwrap section">
-            <div className="titlesection">{props.title}</div>
-           <figure> <img src={pic1} className="c1"/> <figcaption className="card-title h5" style={style}>Trolley</figcaption></figure>
-           <figure> <img src={pic2} className="c1"/><figcaption className="card-title h5" style={style}>Planting</figcaption></figure>
-           <figure> <img src={pic3} className="c1"/><figcaption className="card-title h5" style={style}>Candid</figcaption></figure>
-            <figure><img src={pic4} className="c1"/><figcaption className="card-title h5" style={style}>Beauty</figcaption></figure>
-           <figure> <img src={pic5} className="c1"/><figcaption className="card-title h5" style={style}>Leaves</figcaption></figure> 
-            
+            <div className="titlesection">    <div className="titlecenter">  {props.title}   </div>   </div>
+           <figure> <img src={pic1} className="c1"/> <figcaption className="seccap" style={style}>Step 1 : Contact</figcaption></figure>
+           <figure> <img src={pic2} className="c1"/><figcaption className="seccap" style={style}>Step 2 : Adopt</figcaption></figure>
+           <figure> <img src={pic3} className="c1"/><figcaption className="seccap" style={style}>Step 3 : Care</figcaption></figure> 
             </div>
     )
 }

@@ -5,11 +5,12 @@ a.navlink {
     font-size: larger;
     text-decoration: none;
     font-family: 'Mali', cursive;
+    transition: all .2s ease-in-out;
+    
 }
 a.navlink:hover{
     color:green;
-    font-size: x-large;
-    font-weight: bolder;
+    transform: scale(1.5);
 }
 a.navlinklogo{
     margin-left: 0.5%;
@@ -17,6 +18,7 @@ a.navlinklogo{
     font-size: larger;
     text-decoration: none;
     font-family: 'Mali', cursive;
+    
 }
 span.fletter{
     color: rgb(0, 128, 0);
@@ -24,13 +26,7 @@ span.fletter{
     font-weight: bolder;
 }
 .navwrap{
-    background-color: #f6f5eb;
+    background-color: beige;
     height: fit-content;
     
 }
-
-/* .selected{
-    color:green;
-    font-size: x-large;
-    font-weight: bolder;
-} */

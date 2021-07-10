@@ -1,12 +1,9 @@
 import React from 'react'
-import CardGroup from './CardGroup';
-import './section.css';
 
-function Section(props) {
+function Section() {
     return (
-        <div className="section">
-          <p className="titlesection">{props.title}</p>
-            <CardGroup/>
+        <div className="secwrap">
+            
         </div>
     )
 }

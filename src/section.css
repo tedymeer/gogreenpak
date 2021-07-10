@@ -12,16 +12,39 @@
     display:block;
     text-align: center;
     font-size: xx-large;
-    font-family: 'Mali', cursive;
+    font-family: 'Nunito', sans-serif;
     padding: 2%;
     font-weight: bolder;
-    color: green;
+    color:#505050;
+    display: flex;
+    justify-content: center;
 }
 
 .card {
     box-shadow: 3px 3px 20px grey;
     border-radius: 2%;
 }
-.card-title.h5{
-    font-family: 'Mali', cursive;
-}
+@media only screen and (max-width: 320px) {
+    .titlesection{
+ font-size:x-small
+    }
+ }
+ 
+ 
+ @media only screen and (min-width: 321px) and (max-width: 540px) {
+     .titlesection{
+ font-size:small
+     }
+ }
+ @media only screen and (min-width: 541px) and (max-width: 768px) {
+     .titlesection{
+ font-size:large
+     }
+ }
+ 
+ @media only screen and (min-width: 769px)  {
+     .titlesection{
+ font-size:x-large
+     }
+ }
+ 

@@ -1,15 +1,14 @@
-/* .circlesecwrap.section{
-    background-color: bisque;
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+.titlesection{
+    font-family: 'Nunito', sans-serif;
 }
- */
-
 .circlesecwrap{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
     justify-content: space-evenly;
-}
+} 
 .c1{
     border:5px solid white;
     border-radius: 50%;
@@ -17,12 +16,24 @@
     width: 200px;
     height: 200px;
 }
-
+.titlecenter{
+    width: fit-content;
+    margin-bottom: 3%;
+    border-bottom: 2px solid darkslategray;
+    transition: all .2s ease-in-out;
+    font-family: 'Nunito', sans-serif;
+}
+.titlecenter:hover{
+    transform: scale(1.1);
+}
 .cap{
     width: max-content;
     font-size: xx-small;
     width: auto;
     padding-top: unset;
+}
+figcaption.seccap{
+    padding-top: 5%;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -59,5 +70,33 @@
         border:2px solid white;
         width: 80px;
         height: 80px;
+    }
+}
+
+.seccap{
+    font-family: 'Mali', cursive;
+}
+
+@media only screen and (max-width: 320px) {
+   .seccap{
+font-size:x-small
+   }
+}
+
+
+@media only screen and (min-width: 321px) and (max-width: 540px) {
+    .seccap{
+font-size:small
+    }
+}
+@media only screen and (min-width: 541px) and (max-width: 768px) {
+    .seccap{
+font-size:large
+    }
+}
+
+@media only screen and (min-width: 769px)  {
+    .seccap{
+font-size:x-large
     }
 }

@@ -6,15 +6,18 @@ import logo from './log.svg';
 function NavBar() {
     return (
         <Navbar className="navwrap" expand="lg" sticky="top">
-            <NavLink to="/" ><img src={logo} alt="Three trees logo" style={{ height: 70, width: 50 }}/></NavLink>
+
+
+<NavLink to="/" ><img src={logo} alt="Three trees logo" style={{ height: 60, width: 50 }}/></NavLink>
 <NavLink to="/" className="navlinklogo"><span className="fletter">G</span>o <span className="fletter">G</span>reen <span className="fletter">P</span>akistan</NavLink>
+
+
+
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <NavLink to="/home" className="navlink" activeStyle={{ color:'green',fontSize: 'x-large',
-    fontWeight: 'bolder'}}>Home</NavLink>
-      <NavLink to="/adopt" className="navlink" activeStyle={{ color:'green',fontSize: 'x-large',
-    fontWeight: 'bolder'}}>Adopt</NavLink>
+      <NavLink to="/home" className="navlink" activeStyle={{ color:'green'}}>Home</NavLink>
+      <NavLink to="/adopt" className="navlink" activeStyle={{ color:'green'}}>Adopt</NavLink>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

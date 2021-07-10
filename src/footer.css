@@ -1,4 +1,116 @@
-.footer-container{
-    margin-top: 0px;
-    align-self: flex-end;
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@200&family=Open+Sans:wght@600&display=swap');
+
+.footer{
+    display: flex;
+    
 }
+
+.box1{
+flex: 55%;
+padding: 1.7%;
+
+background-color:darkslategray;
+font-family: 'Mali', cursive;
+color: white;
+transition: all .2s ease-in-out;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.box2{
+    flex: 25%;
+    padding: 1.7%;
+    background-color:  #6dcd9a;
+    font-family: 'Mali', cursive;
+color: white;
+
+transition: all .2s ease-in-out;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+.box3{
+    flex: 10%;
+padding: 1.7%;
+background-color: #3D5B94;
+/* font-family: 'Mali', cursive; */
+color: white;
+
+font-weight: bolder;
+font-size: larger;
+transition: all .2s ease-in-out;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.box4{
+    flex: 10%;
+padding: 1.7%;
+background-color: #3DACDD;
+/* font-family: 'Mali', cursive; */
+font-family: 'Open Sans', sans-serif;
+color: white;
+
+font-weight: bolder;
+font-size: larger;
+transition: all .2s ease-in-out;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.box5{
+    flex: 10%;
+padding: 1.7%;
+background-color: #1E83AE;
+/* font-family: 'Mali', cursive; */
+font-family: 'Open Sans', sans-serif;
+color: white;
+
+font-weight: bolder;
+font-size: larger;
+transition: all .2s ease-in-out;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 320px) {
+    .box1,.box2,.box3,.box4,.box5{
+ font-size:8px
+    }
+ }
+ 
+ 
+ @media only screen and (min-width: 321px) and (max-width: 540px) {
+    .box1,.box2,.box3,.box4,.box5{
+        font-size:xx-small
+           }
+ }
+ @media only screen and (min-width: 541px) and (max-width: 768px) {
+    .box1,.box2,.box3,.box4,.box5{
+        font-size:small
+           }
+ }
+ 
+ @media only screen and (min-width: 769px)  {
+    .box1,.box2,.box3,.box4,.box5{
+        font-size:large
+           }
+ }
+ 

@@ -6,14 +6,14 @@ import './coverstyle.css';
 function Slider() {
     return (
         <Carousel >
-        <Carousel.Item interval={5000} className="coverstyle">
+        <Carousel.Item interval={3000} className="coverstyle">
           <img
             className="d-block w-100"
             src={cover1}
             alt="Big tree in middle"
           />
         </Carousel.Item>
-        <Carousel.Item interval={6000} className="coverstyle" >
+        <Carousel.Item interval={3000} className="coverstyle" >
           <img
             className="d-block w-100"
             src={cover3}
