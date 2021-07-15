@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gogreenpak/static/css/main.d8229d77.chunk.css",
+    "main.js": "/gogreenpak/static/js/main.7ff0eb43.chunk.js",
+    "main.js.map": "/gogreenpak/static/js/main.7ff0eb43.chunk.js.map",
+    "runtime~main.js": "/gogreenpak/static/js/runtime~main.b6e20933.js",
+    "runtime~main.js.map": "/gogreenpak/static/js/runtime~main.b6e20933.js.map",
+    "static/css/2.63f31f8d.chunk.css": "/gogreenpak/static/css/2.63f31f8d.chunk.css",
+    "static/js/2.87f2dde1.chunk.js": "/gogreenpak/static/js/2.87f2dde1.chunk.js",
+    "static/js/2.87f2dde1.chunk.js.map": "/gogreenpak/static/js/2.87f2dde1.chunk.js.map",
+    "index.html": "/gogreenpak/index.html",
+    "precache-manifest.a9c60390d946a1c44a8b4a5d09d3a769.js": "/gogreenpak/precache-manifest.a9c60390d946a1c44a8b4a5d09d3a769.js",
+    "service-worker.js": "/gogreenpak/service-worker.js",
+    "static/css/2.63f31f8d.chunk.css.map": "/gogreenpak/static/css/2.63f31f8d.chunk.css.map",
+    "static/css/main.d8229d77.chunk.css.map": "/gogreenpak/static/css/main.d8229d77.chunk.css.map",
+    "static/media/coverpic1.jpg": "/gogreenpak/static/media/coverpic1.d4819c8e.jpg",
+    "static/media/coverpic3.jpg": "/gogreenpak/static/media/coverpic3.fee23b7f.jpg",
+    "static/media/log.svg": "/gogreenpak/static/media/log.d7c4fe00.svg",
+    "static/media/s2.png": "/gogreenpak/static/media/s2.155cbe08.png",
+    "static/media/s3.jpg": "/gogreenpak/static/media/s3.2cb3da50.jpg"
+  }
+}
