@@ -15,3 +15,6 @@ p.adoptheading {
     background-color: #f6f5eb;
     color: darkslategray;
 }
+a.submitbtn.mailbtn {
+    width: fit-content;
+}

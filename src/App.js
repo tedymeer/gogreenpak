@@ -4,7 +4,8 @@ import HomePage from './HomePage';
 import AdoptPage from './AdoptPage';
 import NavBar from './NavBar'
 import {Switch,Route} from "react-router-dom";
-
+import Gallerypics from './Gallerypics';
+import React from 'react';
 
 
 
@@ -23,6 +24,10 @@ function App() {
           <Route exact path="/adopt">
           <AdoptPage />
           </Route>
+          <Route exact path="/gallery">
+          <Gallerypics />
+          </Route>
+          <Route component={HomePage}/>
         </Switch>
      
      

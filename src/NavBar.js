@@ -16,8 +16,11 @@ function NavBar() {
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
+     <div style={{display:'flex',width:'100%',justifyContent:'space-evenly'}}>
       <NavLink to="/home" className="navlink" activeStyle={{ color:'green'}}>Home</NavLink>
+      <NavLink to="/gallery" className="navlink" activeStyle={{ color:'green'}}>Gallery</NavLink>
       <NavLink to="/adopt" className="navlink" activeStyle={{ color:'green'}}>Adopt</NavLink>
+      </div>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

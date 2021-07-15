@@ -20,7 +20,7 @@ function ContactDetails() {
             </div>
             <div className="handc">
             <p className="sheading">Find us on facebook</p>
-            <p className="para"><a className="fblink" href="https://www.facebook.com/PlantLives" target="_blank">Go Green Pakistan</a></p>
+            <p className="para"><a className="fblink" rel="noopener noreferrer" href="https://www.facebook.com/PlantLives" target="_blank">Go Green Pakistan</a></p>
             </div>
            
         </div>

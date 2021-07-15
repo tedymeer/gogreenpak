@@ -1,0 +1,30 @@
+
+.about{
+    font-family: 'Mali', cursive;
+
+}
+
+@media only screen and (max-width: 320px) {
+    .about{
+ font-size:xx-small
+    }
+ }
+ 
+ 
+ @media only screen and (min-width: 321px) and (max-width: 540px) {
+     .about{
+ font-size:x-small
+     }
+ }
+ @media only screen and (min-width: 541px) and (max-width: 768px) {
+     .about{
+ font-size:medium
+     }
+ }
+ 
+ @media only screen and (min-width: 769px)  {
+     .about{
+ font-size:large
+     }
+ }
+ 
