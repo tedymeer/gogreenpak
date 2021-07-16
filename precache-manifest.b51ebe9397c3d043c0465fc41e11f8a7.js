@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6bd61f8733474978e2d8d3e1a355b04",
+    "revision": "477e3932de0454409a71aca8ffb8dfb8",
     "url": "/gogreenpak/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gogreenpak/static/css/2.63f31f8d.chunk.css"
   },
   {
-    "revision": "22a583d3e812efc33266",
+    "revision": "0efc2abdeb80be487f02",
     "url": "/gogreenpak/static/css/main.3a26052e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gogreenpak/static/js/2.b1ab991b.chunk.js"
   },
   {
-    "revision": "22a583d3e812efc33266",
-    "url": "/gogreenpak/static/js/main.945a139b.chunk.js"
+    "revision": "0efc2abdeb80be487f02",
+    "url": "/gogreenpak/static/js/main.6c0359b2.chunk.js"
   },
   {
     "revision": "97a966917122f35928ad",
