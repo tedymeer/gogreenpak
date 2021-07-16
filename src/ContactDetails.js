@@ -1,5 +1,6 @@
 import React from 'react'
 import './contactdetail.css'
+
 function ContactDetails() {
     return (
         <div className="cdetail">

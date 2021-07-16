@@ -2,7 +2,7 @@ import React from 'react'
 import './adopt.css'
 import ContactDetails from './ContactDetails'
 import Mailus from './Mailus'
-import Footer from './Footer'
+
 
 function AdoptPage() {
     return (
@@ -12,9 +12,10 @@ function AdoptPage() {
         <div className="flexwrapper">   
            <ContactDetails />
            <Mailus />          
+           
         </div>
-        <div className="space"></div>
-            <Footer/>
+    
+            
         </>
     )
 }

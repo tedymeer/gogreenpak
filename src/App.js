@@ -6,7 +6,7 @@ import NavBar from './NavBar'
 import {Switch,Route} from "react-router-dom";
 import Gallerypics from './Gallerypics';
 import React from 'react';
-
+import Footer from './Footer';
 
 
 function App() {
@@ -30,7 +30,9 @@ function App() {
           <Route component={HomePage}/>
         </Switch>
      
-     
+      <div className="foot">
+     <Footer />
+     </div>
     </div>
   );
 }

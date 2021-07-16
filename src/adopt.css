@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap');
 
 .adoptheading{
     text-align: center;
@@ -10,7 +11,9 @@
     display: flex;
     /* margin-bottom:5%; */
     background-color: #f6f5eb;
+    
 }
+
 p.adoptheading {
     background-color: #f6f5eb;
     color: darkslategray;
@@ -18,3 +21,92 @@ p.adoptheading {
 a.submitbtn.mailbtn {
     width: fit-content;
 }
+p.para{
+    font-family: 'Mali', cursive;
+}
+@media only screen and (max-width: 320px) {
+    p.para{
+ font-size:0.85rem
+    }
+    .adoptheading{
+        font-size:1.5rem;
+    }
+    p.cfmainheading,p.cmainheading{
+        font-size: 1rem;
+    }
+    p.sheading{
+        font-size:0.9rem ; 
+    }
+ }
+ 
+ 
+ @media only screen and (min-width: 321px) and (max-width: 540px) {
+    p.para{
+        font-size:0.92rem
+           }
+           .adoptheading{
+               font-size:1.55rem;
+           }
+           p.cfmainheading,p.cmainheading{
+               font-size: 1.2rem;
+           }
+           p.sheading{
+               font-size:0.95rem ; 
+           }
+ }
+ @media only screen and (min-width: 541px) and (max-width: 768px) {
+    p.para{
+        font-size:1.1rem
+           }
+           .adoptheading{
+               font-size:1.8rem;
+           }
+           p.cfmainheading,p.cmainheading{
+               font-size: 1.5rem;
+           }
+           p.sheading{
+               font-size:1.1rem ; 
+           }
+ }
+ @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    p.para{
+        font-size:1.3rem
+           }
+           .adoptheading{
+               font-size:2rem;
+           }
+           p.cfmainheading,p.cmainheading{
+               font-size: 1.7rem;
+           }
+           p.sheading{
+               font-size:1.2rem ; 
+           }
+ }
+ @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    p.para{
+        font-size:1.5rem
+           }
+           .adoptheading{
+               font-size:2.2rem;
+           }
+           p.cfmainheading,p.cmainheading{
+               font-size: 1.9rem;
+           }
+           p.sheading{
+               font-size:1.3rem ; 
+           }
+ }
+ @media only screen and (min-width: 1441px) {
+    p.para{
+        font-size:1.7rem
+           }
+           .adoptheading{
+               font-size:2.4rem;
+           }
+           p.cfmainheading,p.cmainheading{
+               font-size: 2.1rem;
+           }
+           p.sheading{
+               font-size:1.5rem ; 
+           }
+ }

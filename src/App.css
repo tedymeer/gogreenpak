@@ -1,5 +1,17 @@
-.space{
+
+.App{
+    height: 100vh;
     background-color: #f6f5eb;
-    padding:4%;
-    
 }
+
+.foot {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} 
+@media only screen and (min-width: 425px) {
+  
+.foot {
+    position: initial;
+} 
+ }
