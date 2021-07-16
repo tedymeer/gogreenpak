@@ -14,7 +14,7 @@ function HomePage() {
             <About title="Who we are?"/>
             <SectionCircle title="3 simple steps"/>
             <Howitwork title="How it works"/>
-            <div style={{padding:'2%'}}></div>
+            <div style={{padding:'2%',backgroundColor:'#f6f5eb'}}></div>
         </div>
     )
 }
